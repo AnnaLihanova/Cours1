@@ -24,8 +24,8 @@ public class Main {
         byte bananasNumber = 5;
         int bananasWeight = bananasNumber * 80;
         int milkVolumeMl = 200;
-        int OneHundredMilkMlToGr = 105;
-        int milkWeight = (milkVolumeMl / 100) * OneHundredMilkMlToGr;
+        int oneHundredMilkMlToGr = 105;
+        int milkWeight = (milkVolumeMl / 100) * oneHundredMilkMlToGr;
         byte iceCreamNumber = 2;
         int iceCreamWeight = iceCreamNumber * 100;
         byte eggsNumber = 4;
