@@ -1,9 +1,13 @@
-package ru.skypro;
+package ru.skypro.Variables;
 
-public class Main {
-
+public class Variables {
     public static void main(String[] args) {
 
+        Variables();
+
+    }
+
+    private static void Variables() {
         byte a = 1;
         short b = 30_278;
         int c = 687;
@@ -35,7 +39,7 @@ public class Main {
         System.out.println("Вес спорт-завтрака " + breakfastWeightKg + " кг");
 
         byte loseWeight = 7;
-        int loseWeightGr= loseWeight * 1000;
+        int loseWeightGr = loseWeight * 1000;
         short firstDietGrPerDay = 250;
         short secondDietGrPerDay = 500;
         int daysFirstDiet = loseWeightGr / firstDietGrPerDay;
@@ -71,4 +75,6 @@ public class Main {
         double increaseKristinaIncome = increasedYearSalaryKristina - basicYearSalaryKristina;
         System.out.println("Годовой доход Кристины вырос на " + increaseKristinaIncome + " рублей");
     }
+
+
 }
